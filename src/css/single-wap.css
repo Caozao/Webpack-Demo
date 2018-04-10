@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: '微软雅黑', Arial !important;
+}
+a {
+    text-decoration: none;
+}
+a:focus, 
+area:focus { 
+    outline:none;
+    outline-style:none; 
+    -moz-outline-style: none;
+}  
+.main {
+    width:100%;
+    overflow: hidden;
+}
+.main .content {
+    max-width:640px;
+    margin: 0 auto;
+}
+.main .content img {
+    width: 100%;
+    overflow: hidden;
+}
+img {
+    display: block;
+    border: 0;
+}
+/* 页面文字自适应REM */
+html {
+  font-size: 18px;
+}
+@media only screen and (min-width: 360px) {
+  html {
+    /* font-size: 25.6px !important; */
+    font-size: 16px !important;
+  }
+}
+@media only screen and (min-width: 400px) {
+  html {
+    /* font-size: 21.33333333px !important; */
+    font-size: 18px !important;
+  }
+}
+@media only screen and (min-width: 415px) {
+  html {
+    /* font-size: 22.08px !important; */
+    font-size: 20px !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  html {
+    /* font-size: 25.6px !important; */
+    font-size: 25.6px !important;
+  }
+}
+
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}

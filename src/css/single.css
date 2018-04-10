@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: '微软雅黑', Arial !important;
+    background: #fff;
+}
+a {
+    text-decoration: none;
+}
+a:focus, 
+area:focus { 
+    outline:none;
+    outline-style:none;
+}  
+.main {
+    width:100%;
+    overflow: hidden;
+}
+.main .content {
+    width:1920px;
+    margin: 0 auto;
+}
+.main .content img {
+    width: 100%;
+    min-height: 346px;
+}
+img {
+    display: block;
+    border: 0;
+}
+.mini-btn-middle {
+    font-family: '微软雅黑', Arial !important;
+}
