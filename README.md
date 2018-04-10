@@ -45,4 +45,10 @@
 > src 用了存放项目源文件  
 > lib 文件用了存放第三方插件。例如Jquery的相关插件  
 
-## 最后使用 num run build 运行  
+## 四、运行项目  
+  
+> cd your_project  
+> npm install  
+> npm run build  
+  
+
